@@ -1,0 +1,22 @@
+{
+  "name": "lensod",
+  "version": "1.0.0",
+  "description": "A lensod API",
+  "main": "server.js",
+  "author": "stang",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "config": "^1.20.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  }
+}
